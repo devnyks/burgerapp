@@ -1,0 +1,18 @@
+nav ul li a.active {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+nav ul {
+  z-index: 1 !important;
+}
+
+nav ul.active {
+  visibility: 1;
+  opacity: 1;
+}
+
+nav ul.inactive {
+  opacity: 0;
+  visibility: hidden;
+}
